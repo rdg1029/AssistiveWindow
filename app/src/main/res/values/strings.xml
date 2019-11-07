@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assistive Window</string>
+	
+	<string name="main_running">running</string>
+	<string name="main_stopped">stopped</string>
+	<string name="main_htu">If you touch the floating view two times a window will appear on your screen!</string>
+	<string name="main_ex">Touch the middle of the screen\nto run or stop the service</string>
+	<string name="main_setting">setting</string>
+	<string name="main_info">info</string>
+	<string name="main_exit">Are you sure you want to exit?</string>
+	<string name="main_exit_y">Yes</string>
+	<string name="main_exit_n">No</string>
+	<string name="main_permit_msg">You need location rights to use this app!</string>
+	<string name="main_permit_y">Confirm</string>
+	
+	<string name="foreground_notification">Assistive Window is running</string>
+	
+	<string name="search">Search</string>
+	<string name="toggle">Toggle</string>
+	<string name="volume_control">Volume Control</string>
+	
+	<string name="simple_memo">Simple Memo</string>
+	<string name="simple_memo_edit">Edit</string>
+	<string name="simple_memo_preview">Press edit to type memo</string>
+	<string name="simple_memo_hint">Enter Memo...</string>
+	<string name="simple_memo_save">save</string>
+	<string name="simple_memo_clear">clear</string>
+	<string name="simple_memo_savetoast">Saved!</string>
+	<string name="simple_memo_dialog_message">Are you sure you want to clear memo?</string>
+	<string name="simple_memo_dialog_clear">clear</string>
+	<string name="simple_memo_dialog_cancel">cancel</string>
+	
+	<string name="weather">Weather</string>
+	<string name="weather_info">Press update to show \nweather of current location</string>
+	<string name="weather_update">Update</string>
+	<string name="weather_last_update">Last Update&#160;</string>
+	<string name="weather_check">Check your network \nand gps state!</string>
+	<string name="weather_loading">Loading...</string>
+	
+	<string name="setting_fv">FloatingView Setting</string>
+	<string name="setting_fv_position">Position</string>
+	<string name="setting_fv_position_ex">Set FloatingView position</string>
+	<string name="setting_fv_position_left">left</string>
+	<string name="setting_fv_position_right">right</string>
+	<string name="setting_fv_restart">Auto Restart</string>
+	<string name="setting_fv_restart_ex">Auto restart when your device boot complete</string>
+	<string name="setting_fl">FloatingLayout Setting</string>
+	<string name="setting_fl_search">Search Options</string>
+	<string name="setting_fl_search_ex">Select Search Engine</string>
+	<string name="setting_fl_search_google">Google</string>
+	<string name="setting_fl_search_bing">Bing</string>
+	<string name="setting_fl_search_yahoo">Yahoo</string>
+	<string name="setting_fl_search_naver">Naver</string>
+	<string name="setting_fl_search_daum">Daum</string>
+	<string name="setting_fl_search_zum">Zum</string>
+	
+	<string name="info_dev_info">Developer Info</string>
+	<string name="info_share">Share this app!</string>
+	<string name="info_recommandapps">Recommand Apps</string>
+	<string name="info_np">Namoo Protector</string>
+	<string name="info_aod">Always on Display</string>
+	<string name="info_download">Download</string>
+	
+
+</resources>

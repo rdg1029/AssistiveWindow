@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="main_running">실행중</string>
+	<string name="main_stopped">중지됨</string>
+	<string name="main_htu">플로팅 뷰를 두 번 터치하면 창이 나타납니다!</string>
+	<string name="main_ex">서비스를 실행하거나 중지하려면\n화면 중앙을 터치하세요</string>
+	<string name="main_setting">설정</string>
+	<string name="main_info">정보</string>
+	<string name="main_exit">종료하시겠습니까?</string>
+	<string name="main_exit_y">예</string>
+	<string name="main_exit_n">아니요</string>
+	<string name="main_permit_msg">이 앱을 사용하려면 위치권한이 필요합니다!</string>
+	<string name="main_permit_y">확인</string>
+	
+	<string name="foreground_notification">Assistive Window가 실행중입니다</string>
+	
+	<string name="search">검색</string>
+	<string name="toggle">토글</string>
+	<string name="volume_control">볼륨 설정</string>
+
+	<string name="simple_memo">간편메모</string>
+	<string name="simple_memo_edit">수정</string>
+	<string name="simple_memo_preview">메모를 입력하려면\n수정 버튼을 눌러보세요</string>
+	<string name="simple_memo_hint">메모를 입력하세요...</string>
+	<string name="simple_memo_save">저장</string>
+	<string name="simple_memo_clear">지우기</string>
+	<string name="simple_memo_savetoast">저장되었습니다!</string>
+	<string name="simple_memo_dialog_message">메모를 모두 지우시겠습니까?</string>
+	<string name="simple_memo_dialog_clear">지우기</string>
+	<string name="simple_memo_dialog_cancel">취소</string>
+	
+	<string name="weather">날씨</string>
+	<string name="weather_info">업데이트를 눌러 \n현재위치의 날씨를 불러옵니다</string>
+	<string name="weather_update">업데이트</string>
+	<string name="weather_last_update">마지막 업데이트&#160;</string>
+	<string name="weather_check">네트워크와 gps연결상태를 \n확인하세요!</string>
+	<string name="weather_loading">불러오는중...</string>
+
+	<string name="setting_fv">플로팅뷰 설정</string>
+	<string name="setting_fv_position">위치</string>
+	<string name="setting_fv_position_ex">플로팅뷰 위치를 설정합니다</string>
+	<string name="setting_fv_position_left">왼쪽</string>
+	<string name="setting_fv_position_right">오른쪽</string>
+	<string name="setting_fv_restart">자동시작</string>
+	<string name="setting_fv_restart_ex">부팅시 플로팅뷰를 자동으로 실행합니다</string>
+	<string name="setting_fl">플로팅 레이아웃 설정</string>
+	<string name="setting_fl_search">검색 설정</string>
+	<string name="setting_fl_search_ex">검색 엔진을 선택하세요</string>
+	<string name="setting_fl_search_google">Google</string>
+	<string name="setting_fl_search_bing">Bing</string>
+	<string name="setting_fl_search_yahoo">Yahoo</string>
+	<string name="setting_fl_search_naver">Naver</string>
+	<string name="setting_fl_search_daum">Daum</string>
+	<string name="setting_fl_search_zum">Zum</string>
+	
+	<string name="info_dev_info">개발자 정보</string>
+	<string name="info_share">이 앱을 공유해주세요!</string>
+	<string name="info_recommandapps">추천 앱</string>
+	<string name="info_np">나무프로텍터</string>
+	<string name="info_aod">Always on Display</string>
+	<string name="info_download">다운로드</string>
+	
+	
+</resources>

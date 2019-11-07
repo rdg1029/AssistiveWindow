@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:alpha="0.96"
+	android:id="@+id/simple_memo_pv">
+		
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal">
+		
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"/>
+			
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="3"
+			android:id="@+id/simple_memo_cv"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:background="@drawable/shape_memo"
+			android:orientation="vertical">
+
+			<ScrollView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:orientation="vertical">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_marginTop="10dp"
+						android:hint="@string/simple_memo_hint"
+						android:textColor="#6D6D6D"
+						android:background="@null"
+						android:id="@+id/memo"/>
+
+				</LinearLayout>
+
+			</ScrollView>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="#6D6D6D"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="0"
+				android:gravity="center"
+				android:orientation="horizontal">
+
+				<Button
+					android:layout_width="65dp"
+					android:layout_height="45dp"
+					android:id="@+id/memo_close"
+					android:background="#00000000"
+					android:text="@string/simple_memo_save"
+					android:textColor="#6D6D6D"
+					android:textStyle="bold"
+					android:textSize="12dp"/>
+
+				<Button
+					android:layout_width="65dp"
+					android:layout_height="45dp"
+					android:id="@+id/memo_clear"
+					android:background="#00000000"
+					android:text="@string/simple_memo_clear"
+					android:textColor="#6D6D6D"
+					android:textStyle="bold"
+					android:textSize="12dp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"/>
+		
+	</LinearLayout>
+	
+</FrameLayout>
